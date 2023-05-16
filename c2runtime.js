@@ -24749,14 +24749,14 @@ cr.behaviors.wrap = function(runtime)
 	};
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Browser,
 	cr.plugins_.Audio,
+	cr.plugins_.Browser,
 	cr.plugins_.Arr,
 	cr.plugins_.Function,
 	cr.plugins_.LocalStorage,
+	cr.plugins_.Spritefont2,
 	cr.plugins_.Sprite,
 	cr.plugins_.Touch,
-	cr.plugins_.Spritefont2,
 	cr.behaviors.custom,
 	cr.behaviors.Sin,
 	cr.behaviors.Flash,
